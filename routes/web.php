@@ -29,6 +29,13 @@ Route::get('/', function () {
 Route::middleware('auth')->group(function () {
     Route::get('/calendario', [HomeController::class, 'calendario'])->name('calendario');
     Route::get('/1', [HomeController::class, 'datos'])->name('datos');
+    Route::get('/inventario', [HomeController::class, 'inventario'])->name('inventario');
+    Route::get('/inventario-stock', [HomeController::class, 'inventario'])->name('inventario_stock');
+    Route::get('/categorias', [HomeController::class, 'categorias'])->name('categorias');
+    Route::get('/facturas', [HomeController::class, 'facturas'])->name('facturas');
+    Route::get('/creditos', [HomeController::class, 'creditos'])->name('creditos');
+    Route::get('/proveedores', [HomeController::class, 'proveedores'])->name('proveedores');
+    Route::get('/clientes', [HomeController::class, 'clientes'])->name('clientes');
     Route::get('/documentacion', [HomeController::class, 'documentacion'])->name('documentacion');
 });
 

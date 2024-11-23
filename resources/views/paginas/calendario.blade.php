@@ -10,7 +10,7 @@
 
                     <div class="md:flex hidden items-center gap-2.5 text-sm font-semibold">
                         <div class="flex items-center gap-2">
-                            <a href="#" class="text-sm font-medium text-slate-700 dark:text-slate-400">Konrix</a>
+                            <a href="#" class="text-sm font-medium text-slate-700 dark:text-slate-400">NutriControl</a>
                         </div>
 
                         <div class="flex items-center gap-2">
@@ -20,7 +20,7 @@
 
                         <div class="flex items-center gap-2">
                             <i class="mgc_right_line text-lg flex-shrink-0 text-slate-400 rtl:rotate-180"></i>
-                            <a href="#" class="text-sm font-medium text-slate-700 dark:text-slate-400" aria-current="page">Calendar</a>
+                            <a href="#" class="text-sm font-medium text-slate-700 dark:text-slate-400" aria-current="page">Calendario</a>
                         </div>
                     </div>
                 </div>

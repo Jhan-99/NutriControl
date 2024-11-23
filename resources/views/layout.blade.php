@@ -68,30 +68,8 @@
                             <span class="menu-text"> Calendario </span>
                         </a>
                     </li>
-
                     <li class="menu-item">
-                        <a href="{{ route('datos') }}" class="menu-link">
-                            <span class="menu-icon"><i class="mgc_coupon_line"></i></span>
-                            <span class="menu-text"> Cuentas </span>
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a href="javascript:void(0)" class="menu-link">
-                            <span class="menu-icon"><i class="mgc_folder_2_line"></i></span>
-                            <span class="menu-text"> Archivos </span>
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a href="javascript:void(0)" class="menu-link">
-                            <span class="menu-icon"><i class="mgc_task_2_line"></i></span>
-                            <span class="menu-text">Facturas</span>
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
+                        <a href="#" data-fc-type="collapse" class="menu-link">
                             <span class="menu-icon"><i class="mgc_building_2_line"></i></span>
                             <span class="menu-text"> Inventario </span>
                             <span class="menu-arrow"></span>
@@ -99,27 +77,44 @@
 
                         <ul class="sub-menu hidden">
                             <li class="menu-item">
-                                <a href="javascript:void(0)" class="menu-link">
+                                <a href="{{ route('inventario') }}" class="menu-link">
                                     <span class="menu-text">Listar</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="javascript:void(0)" class="menu-link">
+                                <a href="{{ route('categorias') }}" class="menu-link">
                                     <span class="menu-text">Categorías</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="javascript:void(0)" class="menu-link">
+                                <a href="{{ route('inventario_stock') }}" class="menu-link">
                                     <span class="menu-text">StockON</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
+                    <li class="menu-item">
+                        <a href="{{ route('facturas') }}" class="menu-link">
+                            <span class="menu-icon"><i class="mgc_task_2_line"></i></span>
+                            <span class="menu-text">Facturas</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="{{ route('creditos') }}" class="menu-link">
+                            <span class="menu-icon"><i class="mgc_coupon_line"></i></span>
+                            <span class="menu-text"> Créditos </span>
+                        </a>
+                    </li>
+
+
+
+
+
 
                     <li class="menu-title">Custom</li>
 
                     <li class="menu-item">
-                        <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
+                        <a href="{{ route('clientes') }}" data-fc-type="collapse" class="menu-link">
                             <span class="menu-icon"><i class="mgc_user_3_line"></i></span>
                             <span class="menu-text"> Usuarios </span>
                             <span class="menu-arrow"></span>
@@ -140,7 +135,7 @@
                     </li>
 
                     <li class="menu-item">
-                        <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
+                        <a href="{{ route('proveedores') }}" data-fc-type="collapse" class="menu-link">
                             <span class="menu-icon"><i class="mgc_box_3_line"></i></span>
                             <span class="menu-text"> Proveedores </span>
                             <span class="menu-arrow"></span>
@@ -152,11 +147,7 @@
                                     <span class="menu-text">Listar</span>
                                 </a>
                             </li>
-                            <li class="menu-item">
-                                <a href="javascript:void(0)" class="menu-link">
-                                    <span class="menu-text">Seguimientos</span>
-                                </a>
-                            </li>
+
                         </ul>
                     </li>
 
@@ -182,7 +173,12 @@
                     </li>
 
                     <li class="menu-title">Almacen</li>
-
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <span class="menu-icon"><i class="mgc_folder_2_line"></i></span>
+                            <span class="menu-text"> Archivos </span>
+                        </a>
+                    </li>
                     <li class="menu-item">
                         <a href="javascript:void(0)" data-fc-type="collapse" class="menu-link">
                             <span class="menu-icon"><i class="mgc_classify_2_line"></i></span>

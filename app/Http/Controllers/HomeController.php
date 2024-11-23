@@ -14,6 +14,35 @@ class HomeController extends Controller
         return view('paginas.datos');
     }
 
+        public function inventario()
+    {
+        return view('paginas.inventario');
+    }
+        public function categorias()
+    {
+        return view('paginas.categorias');
+    }
+
+          public function facturas()
+    {
+        return view('paginas.facturas');
+    }
+          public function creditos()
+    {
+        return view('paginas.creditos');
+    }
+
+
+    public function proveedores()
+    {
+        return view('paginas.proveedores');
+    }
+
+        public function clientes()
+    {
+        return view('paginas.clientes');
+    }
+
         public function documentacion()
     {
         return view('paginas.documentacion');
